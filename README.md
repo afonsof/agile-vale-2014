@@ -1,40 +1,26 @@
-Web Dev Summit 2015
-===================
+# RSV Dev Summit
 
-Hello! This is the site of Web Dev Summit conference. You can see the online version clicking [here](http://webdevsummit.com.br) or by link at repo's description.
+O site está dokerizado, ou seja, você pode rodar ele em sua máquina para testar
+e implementar correções/melhorias sem precisar instalar nada além do Docker.
 
-##Usage
+## Ambiente de desenvolvimento
 
-First of all, you need to clone it ;)
+Faça um fork deste repositório, clone seu fork em seu computador em sua pasta de
+preferência, vá para a página do projeto que deverá ser `devsummit` e execute o
+seguinte comando:
 
-```
-git clone git@github.com:afonsof/web-dev-summit-2015.git
-```
-
-after that, just run:
-
-```
-npm install
-`````
-
-and...
-
-```
-bower install
+```bash
+docker-compose up
 ```
 
-To run a local server, just run
+Acesse no navegador a seguinte página:
 
-```
-grunt serve
-```
+http://localhost:4000
 
-if you want build it, just run
+Pronto! Agora você já pode contribuir com melhorias para o nosso site! :D
 
-```
-grunt build
-```
+Aguardamos seu pull request!
 
+## URL de produção
 
-
-
+http://riosulvalley.com.br/devsummit
